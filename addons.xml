@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+    <addon id="repository.thedeadman" name="theDeadMan's Kodi addon repository" version="0.1.0" provider-name="theDeadMan">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="theDeadMan's Kodi addon repository">
+            <info compressed="false">https://raw.githubusercontent.com/chrisbevan/repository.thedeadman/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/chrisbevan/repository.thedeadman/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/chrisbevan/repository.thedeadman/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>theDeadMan's Kodi skins and supporting scripts</summary>
+            <description>theDeadMan's Kodi skins and supporting scripts</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="script.thedeadman.functions" name="Functions for theDeadMan's skins" provider-name="theDeadMan" version="1.0.0">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="xbmc.json" version="6.0.0"/>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.simplejson" version="2.0.10"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Scripting to support skins created by theDeadMan</summary>
+        <platform>all</platform>
+        <language />
+    </extension>
+</addon>
+
+<addon id="skin.pellucid" version="0.0.1" name="Pellucid" provider-name="theDeadman">
+    <requires>
+        <import addon="xbmc.gui" version="5.3.0"/>
+        <import addon="script.globalsearch" version="1.1.1"/>
+        <import addon="script.artistslideshow" version="1.5.0"/>
+        <import addon="script.thedeadman.functions" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.gui.skin" debugging="false">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">A skin for Kodi by theDeadMan, designed and built in Bristol U.K.</summary>
+        <description lang="en">Built for the living room, Pellucid is a clean and simple kodi experience designed for maximum usability and minimum fuss.</description>
+        <platform>all</platform>
+        <license></license>
+        <forum></forum>
+        <source>https://github.com/chrisbevan/skin.pellucid</source>
+    </extension>
+</addon>
+</addons>
