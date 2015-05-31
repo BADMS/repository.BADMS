@@ -5,9 +5,9 @@
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
         <extension point="xbmc.addon.repository" name="theDeadMan's Kodi addon repository">
-            <info compressed="false">https://raw.githubusercontent.com/chrisbevan/repository.thedeadman/_repo/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/chrisbevan/repository.thedeadman/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/chrisbevan/repository.thedeadman/_repo/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/chrisbevan/repository.thedeadman/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/chrisbevan/repository.thedeadman/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/chrisbevan/repository.thedeadman/</datadir>
             <hashes>false</hashes>
         </extension>
         <extension point="xbmc.addon.metadata">
@@ -28,7 +28,9 @@
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Scripting to support skins created by theDeadMan</summary>
         <platform>all</platform>
-        <language />
+        <license></license>
+        <forum></forum>
+        <source>https://github.com/chrisbevan/script.thedeadman.functions</source>
     </extension>
 </addon>
 
