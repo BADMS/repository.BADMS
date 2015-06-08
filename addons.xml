@@ -34,7 +34,7 @@
     </extension>
 </addon>
 
-<addon id="skin.pellucid" version="0.0.1" name="Pellucid" provider-name="theDeadman">
+<addon id="skin.pellucid" version="0.5.0" name="Pellucid" provider-name="theDeadman">
     <requires>
         <import addon="xbmc.gui" version="5.3.0"/>
         <import addon="script.globalsearch" version="1.1.1"/>
