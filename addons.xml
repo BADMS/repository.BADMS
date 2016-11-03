@@ -1,38 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-    <addon id="repository.thedeadman" name="theDeadMan's Kodi addon repository" version="0.1.0" provider-name="theDeadMan">
+    <addon id="repository.BADMS" name="badaas' Kodi addon repository" version="0.1.0" provider-name="badaas">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
-        <extension point="xbmc.addon.repository" name="theDeadMan's Kodi addon repository">
-            <info compressed="false">https://raw.githubusercontent.com/chrisbevan/repository.thedeadman/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/chrisbevan/repository.thedeadman/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/chrisbevan/repository.thedeadman/master/</datadir>
+        <extension point="xbmc.addon.repository" name="badaas' Kodi addon repository">
+            <info compressed="false">https://raw.githubusercontent.com/BADMS/repository.BADMS/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/BADMS/repository.BADMS/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/BADMS/repository.BADMS/master/</datadir>
             <hashes>false</hashes>
         </extension>
         <extension point="xbmc.addon.metadata">
-            <summary>theDeadMan's Kodi skins and supporting scripts</summary>
-            <description>theDeadMan's Kodi skins and supporting scripts</description>
+            <summary>badaas' Kodi skins and supporting scripts</summary>
+            <description>badaas' Kodi skins and supporting scripts</description>
             <platform>all</platform>
     </extension>
 </addon>
-<addon id="skin.pellucid" version="1.0.1" name="Pellucid" provider-name="theDeadman">
+<addon id="skin.mimix" version="1.0.0" name="mimix" provider-name="badaas">
     <requires>
         <import addon="xbmc.gui" version="5.10.0"/>
-        <import addon="script.skin.helper.service" version="1.0.0"/>
-        <import addon="resource.images.weathericons.outline" version="0.0.5"/>
-        <import addon="resource.images.weatherfanart.single" version="0.0.6"/>
+		<import addon="script.mimic.extras" version="1.0.0"/>
+		<import addon="resource.images.studios.white" version="0.0.4"/>
+		<import addon="script.skinshortcuts" version="0.6.6"/>
+		<import addon="script.toolbox" version="1.0.0"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="script.skin.helper.service" version="1.0.0"/>
+		<import addon="script.image.resource.select" version="0.0.5"/>
     </requires>
     <extension point="xbmc.gui.skin" debugging="false">
         <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">A skin for Kodi by theDeadMan</summary>
-        <description lang="en">Built for the living room, Pellucid is a clean and simple kodi experience designed for maximum usability and minimum fuss.</description>
+        <summary lang="en">A skin for Kodi by badaas</summary>
+        <description lang="en">Built for the living, mimix is a clean skin.</description>
         <platform>all</platform>
         <license></license>
         <forum></forum>
-        <source>https://github.com/chrisbevan/skin.pellucid</source>
+        <source>https://github.com/BADMS/skin.mimix</source>
     </extension>
 </addon>
 </addons>
