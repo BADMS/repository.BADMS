@@ -14,80 +14,99 @@
             <summary>badaas' Kodi skins and supporting scripts</summary>
             <description>badaas' Kodi skins and supporting scripts</description>
             <platform>all</platform>
-    </extension>
-</addon>
-<addon id="skin.mimix" version="1.0.0" name="mimix" provider-name="badaas">
-    <requires>
-        <import addon="xbmc.gui" version="5.12.0"/>
-		<import addon="script.mimic.extras" version="1.0.0"/>
-		<import addon="resource.images.studios.white" version="0.0.4"/>
-		<import addon="script.skinshortcuts" version="0.6.6"/>
-		<import addon="script.toolbox" version="1.0.0"/>
-		<import addon="service.library.data.provider" version="0.0.7"/>
-		<import addon="script.skin.helper.service" version="1.0.0"/>
-		<import addon="script.image.resource.select" version="0.0.5"/>
-    </requires>
-    <extension point="xbmc.gui.skin" debugging="false">
-        <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">A skin for Kodi by badaas</summary>
-        <description lang="en">Built for the living, mimix is a clean skin.</description>
-        <platform>all</platform>
-        <license></license>
-        <forum></forum>
-        <source>https://github.com/BADMS/skin.mimix</source>
-    </extension>
-</addon>
-<addon id="script.colorbox" name="colorbox Script" version="2.0.0" provider-name="BADMS">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.simplejson" version="2.0.10"/>
-		<import addon="script.module.pil" version="1.1.7"/>
-	</requires>
-    <extension point="xbmc.python.script"           library="default.py">
-        <provides>executable</provides>
-    </extension>
-	<extension point="xbmc.addon.metadata">
-		<language/>
-		<summary lang="en">colorbox Script</summary>
-		<description lang="en">Provides more image tools for skinners.</description>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
-		<forum>http://forum.kodi.tv/</forum>
-		<source>https://github.com/BADMS/script.colorbox</source>
-		<email>philipkdick@gmail.com</email>
-	</extension>
-</addon>
-<addon
-  id="skin.APEx"
-  version="1.0.0"
-  name="APEx"
-  provider-name="badaas">
-	<requires>
-		<import addon="xbmc.gui" version="5.12.0"/>
-		<import addon="resource.images.studios.white" version="0.0.4"/>
-		<import addon="script.skinshortcuts" version="0.6.6"/>
-		<import addon="script.toolbox" version="1.0.0"/>
-		<import addon="service.library.data.provider" version="0.0.7"/>
-		<import addon="script.skin.helper.service" version="1.0.0"/>
-		<import addon="script.image.resource.select" version="0.0.5"/>
-	</requires>
-	<extension
-	  point="xbmc.gui.skin"
-	  debugging="false"
-	  effectslowdown="0.75">
-		<res width="1920" height="1080" aspect="16:9" default="true" folder="XML" />
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">APEx by badaas</summary>
-		<description lang="en">Let's get lost.</description>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-		<forum>http://forum.kodi.tv/</forum>
-		<website></website>
-		<email></email>
-		<source>https://github.com/BADMS/skin.APEx</source>
-	</extension>
-</addon>
+		</extension>
+	</addon>
+	<addon id="skin.mimix" version="1.0.0" name="mimix" provider-name="badaas">
+		<requires>
+			<import addon="xbmc.gui" version="5.12.0"/>
+			<import addon="script.mimic.extras" version="1.0.0"/>
+			<import addon="resource.images.studios.white" version="0.0.4"/>
+			<import addon="script.skinshortcuts" version="0.6.6"/>
+			<import addon="script.toolbox" version="1.0.0"/>
+			<import addon="service.library.data.provider" version="0.0.7"/>
+			<import addon="script.skin.helper.service" version="1.0.0"/>
+			<import addon="script.image.resource.select" version="0.0.5"/>
+		</requires>
+		<extension point="xbmc.gui.skin" debugging="false">
+			<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">A skin for Kodi by badaas</summary>
+			<description lang="en">Built for the living, mimix is a clean skin.</description>
+			<platform>all</platform>
+			<license></license>
+			<forum></forum>
+			<source>https://github.com/BADMS/skin.mimix</source>
+		</extension>
+	</addon>
+	<addon id="script.colorbox" name="colorbox Script" version="2.0.0" provider-name="BADMS">
+		<requires>
+			<import addon="xbmc.python" version="2.1.0"/>
+			<import addon="script.module.simplejson" version="2.0.10"/>
+			<import addon="script.module.pil" version="1.1.7"/>
+		</requires>
+		<extension point="xbmc.python.script"           library="default.py">
+			<provides>executable</provides>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<language/>
+			<summary lang="en">colorbox Script</summary>
+			<description lang="en">Provides more image tools for skinners.</description>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
+			<forum>http://forum.kodi.tv/</forum>
+			<source>https://github.com/BADMS/script.colorbox</source>
+			<email>philipkdick@gmail.com</email>
+			<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
+			</assets>
+		</extension>
+	</addon>
+	<addon
+	  id="skin.APEx"
+	  version="1.0.0"
+	  name="APEx"
+	  provider-name="badaas">
+		<requires>
+			<import addon="xbmc.gui" version="5.12.0"/>
+			<import addon="resource.images.studios.white" version="0.0.4"/>
+			<import addon="script.skinshortcuts" version="0.6.6"/>
+			<import addon="script.toolbox" version="1.0.0"/>
+			<import addon="service.library.data.provider" version="0.0.7"/>
+			<import addon="script.skin.helper.service" version="1.0.0"/>
+			<import addon="script.image.resource.select" version="0.0.5"/>
+		</requires>
+		<extension
+		  point="xbmc.gui.skin"
+		  debugging="false"
+		  effectslowdown="0.75">
+			<res width="1920" height="1080" aspect="16:9" default="true" folder="XML" />
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">APEx by badaas</summary>
+			<description lang="en">Let's get lost.</description>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+			<forum>http://forum.kodi.tv/</forum>
+			<website></website>
+			<email></email>
+			<source>https://github.com/BADMS/skin.APEx</source>
+			<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
+				<screenshot>resources/screenshot-01.png</screenshot>
+				<screenshot>resources/screenshot-02.png</screenshot>
+				<screenshot>resources/screenshot-03.png</screenshot>
+				<screenshot>resources/screenshot-04.png</screenshot>
+				<screenshot>resources/screenshot-05.png</screenshot>
+				<screenshot>resources/screenshot-06.png</screenshot>
+				<screenshot>resources/screenshot-07.png</screenshot>
+				<screenshot>resources/screenshot-08.png</screenshot>
+				<screenshot>resources/screenshot-09.png</screenshot>
+				<screenshot>resources/screenshot-10.png</screenshot>
+			</assets>
+			<news>1.0.0 - Released.</news>
+		</extension>
+	</addon>
 </addons>
