@@ -18,7 +18,7 @@
 </addon>
 <addon id="skin.mimix" version="1.0.0" name="mimix" provider-name="badaas">
     <requires>
-        <import addon="xbmc.gui" version="5.10.0"/>
+        <import addon="xbmc.gui" version="5.12.0"/>
 		<import addon="script.mimic.extras" version="1.0.0"/>
 		<import addon="resource.images.studios.white" version="0.0.4"/>
 		<import addon="script.skinshortcuts" version="0.6.6"/>
