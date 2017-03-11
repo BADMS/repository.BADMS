@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="skin.mimix"
+  version="1.0.0"
+  name="mimix"
+  provider-name="badaas">
+	<requires>
+		<import addon="xbmc.gui" version="5.12.0"/>
+		<import addon="script.mimic.extras" version="1.0.0"/>
+		<import addon="resource.images.studios.white" version="0.0.4"/>
+		<import addon="script.skinshortcuts" version="0.6.6"/>
+		<import addon="script.toolbox" version="1.0.0"/>
+		<import addon="service.library.data.provider" version="0.0.7"/>
+		<import addon="script.skin.helper.service" version="1.0.0"/>
+		<import addon="script.image.resource.select" version="0.0.5"/>
+	</requires>
+	<extension
+	  point="xbmc.gui.skin"
+	  debugging="false"
+	  effectslowdown="0.75">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="bg_BG">mimix от badaas</summary>
+		<summary lang="ca_ES">mimix per badaas</summary>
+		<summary lang="de_DE">mimix von badaas</summary>
+		<summary lang="en_AU">mimix by badaas</summary>
+		<summary lang="en_GB">mimix by badaas</summary>
+		<summary lang="en_NZ">mimix by badaas</summary>
+		<summary lang="en_US">mimix by badaas</summary>
+		<summary lang="es_ES">mimix por badaas</summary>
+		<summary lang="et_EE">mimix autorilt badaas</summary>
+		<summary lang="fi_FI">badaasin mimix</summary>
+		<summary lang="fr_CA">Mimique par badaas</summary>
+		<summary lang="fr_FR">mimix par badaas</summary>
+		<summary lang="gl_ES">mimix por badaas</summary>
+		<summary lang="hu_HU">mimix badaas-tól</summary>
+		<summary lang="it_IT">mimix by badaas</summary>
+		<summary lang="ko_KR">badaas이 만든 mimix</summary>
+		<summary lang="lt_LT">mimix, sukurta badaas</summary>
+		<summary lang="ms_MY">mimix oleh byranbadaasil</summary>
+		<summary lang="nl_NL">mimix door badaas</summary>
+		<summary lang="pl_PL">mimix autorstwa badaas</summary>
+		<summary lang="pt_BR">mimix por badaas</summary>
+		<summary lang="pt_PT">mimix por badaas</summary>
+		<summary lang="sr_RS@latin">mimix od badaas</summary>
+		<summary lang="sv_SE">mimix av badaas</summary>
+		<summary lang="tr_TR">mimix, yazan: badaas</summary>
+		<summary lang="zh_CN">mimix by badaas</summary>
+		<description lang="bg_BG">mimix: Облик за Kodi съдържащ елементи от reFocus и Aeon Nox. Благодарности на  BigNoid и Jeroen.</description>
+		<description lang="ca_ES">mimix: Una pell amb tocs de reFocus i d'Aeon Nox. Gràcies a BigNoid i Jeroen.</description>
+		<description lang="de_DE">mimix: Eine dreiste Zusammenstellung von Features meiner Lieblings-Skins, darunter Aeon Nox, reFocus und Artic Zephyr.</description>
+		<description lang="en_AU">mimix: A shameless amalgamation of features from my favourite skins, including Aeon Nox, reFocus, and Arctic Zephyr.</description>
+		<description lang="en_GB">mimix: A shameless amalgamation of features from my favourite skins, including Aeon Nox, reFocus, and Arctic Zephyr.</description>
+		<description lang="en_NZ">mimix: A shameless amalgamation of features from my favourite skins, including Aeon Nox, reFocus, and Arctic Zephyr.</description>
+		<description lang="en_US">mimix: A shameless amalgamation of features from my favorite skins, including Aeon Nox, reFocus, and Arctic Zephyr.</description>
+		<description lang="es_ES">mimix: Un amalgama desvergonzada de funciones de mis skins favoritas, incluyendo Aeon Nox, reFocus y Arctic Zephyr.</description>
+		<description lang="et_EE">mimix on Kodi rüü, mis on saanud mõjutusi reFocus ja Aeon Nox rüüdest. Suured tänud, BigNoid ja Jeroen.</description>
+		<description lang="fr_CA">Mimique : un habillage de Kodi avec des airs de reFocus et d'Aeon Nox grâce à BigNoid et Jeroen.</description>
+		<description lang="fr_FR">mimix : un habillage pour Kodi avec des touches d'inspiration de reFocus et Aeon Nox. De grands mercis à BigNoid et Jeroen.</description>
+		<description lang="gl_ES">mimix: Un tema para Kodi con toques do reFocus e Aeon Nox. Moitas grazas a BigNoid e Jeroen.</description>
+		<description lang="ko_KR">mimix: reFocus와 Aeon Nox를 수정한 Kodi 스킨. BigNoid와 Jeroen에게 깊은 감사를 드립니다.</description>
+		<description lang="lt_LT">mimix: Kodi teminė išvaizda, kurioje panaudoti elementai iš reFocus ir Aeon Nox. Didelis ačiū BigNoid ir Jeroen.</description>
+		<description lang="ms_MY">mimix: Kulit Kodi dengan sentuhan reFocus dan Aeon Nox. Ucapan terima kasih buat BigNoid dan Jeroen.</description>
+		<description lang="nl_NL">mimix is een Kodi skin geinspireerd door reFocus en Aeon Nox. Met dank aan BigNoid en Jeroen.</description>
+		<description lang="pl_PL">mimix: Skóra Kodi z domieszką skór reFocus i Aeon Nox. Wielkie podziękowania dla BigNoid i Jeroen.</description>
+		<description lang="pt_BR">mimix: Uma skin Kodi con toques da reFocus e Aeon Nox. Meus agradecimentos a BigNoid e Jeroen.</description>
+		<description lang="sr_RS@latin">mimix: Kodi maska sa dozom reFocus i Aeon Nox. Mnogo hvala BigNoid i Jeroen.</description>
+		<description lang="sv_SE">mimix: Ett Kodi-skal med en touch av reFocus och Aeon Nox. Många tack till BigNoid och Jeroen.</description>
+		<description lang="tr_TR">mimix: Benim en sevdiğim  Aeon Nox, reFocus, ve Arctic Zephyr dış görünümlerin özelliklerinin utanmazca birleşmesi.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum>http://forum.kodi.tv/</forum>
+		<website></website>
+		<email></email>
+		<source>https://github.com/BADMS/skin.mimix</source>
+	</extension>
+</addon>
