@@ -64,9 +64,9 @@
 		</extension>
 	</addon>
 	<addon
-	  id="skin.APEx"
+	  id="skin.adonic"
 	  version="1.0.0"
-	  name="APEx"
+	  name="adonic"
 	  provider-name="badaas">
 		<requires>
 			<import addon="xbmc.gui" version="5.12.0"/>
@@ -87,14 +87,14 @@
 			<res width="1920" height="1080" aspect="16:9" default="true" folder="XML" />
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<summary lang="en">APEx by badaas</summary>
-			<description lang="en">Let's get lost.</description>
+			<summary lang="en">adonic by badaas</summary>
+			<description lang="en">Get lost.</description>
 			<platform>all</platform>
 			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
 			<forum>http://forum.kodi.tv/</forum>
 			<website></website>
 			<email></email>
-			<source>https://github.com/BADMS/skin.APEx</source>
+			<source>https://github.com/BADMS/skin.adonic</source>
 			<assets>
 				<icon>resources/icon.png</icon>
 				<fanart>resources/fanart.jpg</fanart>
