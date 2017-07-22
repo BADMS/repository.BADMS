@@ -39,7 +39,7 @@
 			<source>https://github.com/BADMS/skin.mimix</source>
 		</extension>
 	</addon>
-	<addon id="script.colorbox" name="colorbox Script" version="2.0.2" provider-name="BADMS">
+	<addon id="script.colorbox" name="colorbox Script" version="2.0.3" provider-name="BADMS">
 		<requires>
 			<import addon="xbmc.python" version="2.25.0"/>
 			<import addon="script.module.simplejson" version="2.0.10"/>
@@ -66,7 +66,7 @@
 	</addon>
 	<addon
 	  id="skin.adonic"
-	  version="1.0.1"
+	  version="1.0.2"
 	  name="adonic"
 	  provider-name="badaas">
 		<requires>
@@ -113,7 +113,7 @@
 				<screenshot>resources/screenshot-09.jpg</screenshot>
 				<screenshot>resources/screenshot-10.jpg</screenshot>
 			</assets>
-			<news>1.0.1 - BUGFIXES - Released</news>
+			<news>1.0.2 - BUGFIXES - Released</news>
 		</extension>
 	</addon>
 </addons>
