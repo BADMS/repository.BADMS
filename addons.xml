@@ -64,7 +64,7 @@
 	</addon>
 	<addon
 	  id="skin.adonic"
-	  version="1.0.2"
+	  version="1.0.3"
 	  name="adonic"
 	  provider-name="badaas">
 		<requires>
@@ -111,7 +111,7 @@
 				<screenshot>resources/screenshot-09.jpg</screenshot>
 				<screenshot>resources/screenshot-10.jpg</screenshot>
 			</assets>
-			<news>1.0.2 - BUGFIXES - Released</news>
+			<news>1.0.3 - BUGFIXES - Released</news>
 		</extension>
 	</addon>
 </addons>
