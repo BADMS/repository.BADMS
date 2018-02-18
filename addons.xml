@@ -39,7 +39,7 @@
 			<source>https://github.com/BADMS/skin.mimix</source>
 		</extension>
 	</addon>
-	<addon id="script.colorbox" name="colorbox Script" version="2.0.5" provider-name="BADMS">
+	<addon id="script.colorbox" name="colorbox Script" version="2.0.7" provider-name="BADMS">
 		<requires>
 			<import addon="xbmc.python" version="2.25.0"/>
 			<import addon="script.module.simplejson" version="2.0.10"/>
@@ -116,7 +116,7 @@
 	</addon>
 	<addon
 		id="skin.copacetix"
-		version="0.0.6"
+		version="0.0.7"
 		name="Copacetix"
 		provider-name="Hitcher a la badaas">
 		<requires>
