@@ -1,7 +1,7 @@
-\\<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <addon
 	id="skin.copacetix"
-	version="0.0.17"
+	version="0.0.18"
 	name="Copacetix"
 	provider-name="Hitcher a la badaas">
 	<requires>

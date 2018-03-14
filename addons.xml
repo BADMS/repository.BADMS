@@ -116,7 +116,7 @@
 	</addon>
 	<addon
 		id="skin.copacetix"
-		version="0.0.17"
+		version="0.0.18"
 		name="Copacetix"
 		provider-name="Hitcher a la badaas">
 		<requires>
