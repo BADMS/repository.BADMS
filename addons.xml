@@ -16,32 +16,9 @@
             <platform>all</platform>
 		</extension>
 	</addon>
-	<addon id="skin.mimix" version="1.0.0" name="mimix" provider-name="badaas">
+	<addon id="script.litebox" name="litebox Script" version="1.0.0" provider-name="BADMS, Angelinas, drinfernoo">
 		<requires>
-			<import addon="xbmc.gui" version="5.12.0"/>
-			<import addon="script.mimic.extras" version="1.0.0"/>
-			<import addon="resource.images.studios.white" version="0.0.4"/>
-			<import addon="script.skinshortcuts" version="0.6.6"/>
-			<import addon="script.toolbox" version="1.0.0"/>
-			<import addon="service.library.data.provider" version="0.0.7"/>
-			<import addon="script.skin.helper.service" version="1.0.0"/>
-			<import addon="script.image.resource.select" version="0.0.5"/>
-		</requires>
-		<extension point="xbmc.gui.skin" debugging="false">
-			<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<summary lang="en">A skin for Kodi by badaas</summary>
-			<description lang="en">Built for the living, mimix is a clean skin.</description>
-			<platform>all</platform>
-			<license></license>
-			<forum></forum>
-			<source>https://github.com/BADMS/skin.mimix</source>
-		</extension>
-	</addon>
-	<addon id="script.colorbox" name="colorbox Script" version="2.0.12" provider-name="BADMS">
-		<requires>
-			<import addon="xbmc.python" version="2.25.0"/>
+			<import addon="xbmc.python" version="3.0.0"/>
 			<import addon="script.module.simplejson" version="2.0.10"/>
 			<import addon="script.module.pil" version="1.1.7"/>
 		</requires>
@@ -49,90 +26,61 @@
 			<provides>executable</provides>
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<summary lang="en_GB">Image manipulator and colour matching tools</summary>
-			<description lang="en_GB">Provides image tools for skinners</description>
+			<summary lang="en_GB">colour matching tools</summary>
+			<description lang="en_GB">for skinners</description>
 			<platform>all</platform>
 			<license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
 			<forum>http://forum.kodi.tv/</forum>
-			<source>https://github.com/BADMS/script.colorbox</source>
+			<source>https://github.com/BADMS/script.litebox</source>
 			<email>philipkdick@gmail.com</email>
 			<assets>
 				<icon>resources/icon.png</icon>
 				<fanart>resources/fanart.jpg</fanart>
+				<screenshot>resources/fanart.jpg</screenshot>
 			</assets>
 		</extension>
 	</addon>
-	<addon
-	  id="skin.adonic"
-	  version="1.0.3"
-	  name="adonic"
-	  provider-name="badaas">
+	<addon id="skin.ambex" version="1.0.0" name="ambex" provider-name="badaas">
 		<requires>
-			<import addon="xbmc.gui" version="5.13.0"/>
-			<import addon="resource.images.studios.white" version="0.0.4"/>
-			<import addon="script.colorbox" version="2.0.4"/>
-			<import addon="script.toolbox" version="1.0.0"/>
-			<import addon="script.extendedinfo" version="1.0.0"/>
-			<import addon="service.library.data.provider" version="0.0.7"/>
-			<import addon="script.skin.helper.service" version="1.0.0"/>
-			<import addon="script.skin.helper.backgrounds" version="1.0.0"/>
-			<import addon="script.skin.helper.colorpicker" version="1.0.0"/>
-			<import addon="script.skin.helper.skinbackup" version="1.0.0"/>
-			<import addon="script.skin.helper.widgets" version="1.0.0"/>
-			<import addon="script.image.resource.select" version="0.0.5"/>
-			<import addon="script.skinshortcuts" version="0.6.6"/>
+			<import addon="xbmc.gui" version="5.15.0"/>
+			<import addon="script.favourites" version="7.1.1"/>
+			<import addon="resource.uisounds.amber" version="1.0.0"/>
+			<import addon="script.litebox" version="1.0.0"/>
+			<import addon="script.skinshortcuts" version="1.0.17"/>
 		</requires>
-		<extension
-		  point="xbmc.gui.skin"
-		  debugging="false"
-		  effectslowdown="0.75">
-			<res width="1920" height="1080" aspect="16:9" default="true" folder="XML" />
+		<extension point="xbmc.gui.skin" debugging="false">
+			<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<summary lang="en">adonic by badaas</summary>
-			<description lang="en">Get lost.</description>
+			<summary lang="de_DE">Keine Bloatware, nur Ihre Medien mit einer leicht zu navigierenden Oberfläche</summary>
+			<summary lang="en_AU">No bloatware, just your media with an easy to navigate interface</summary>
+			<summary lang="en_GB">No bloatware, just your media with an easy to navigate interface</summary>
+			<summary lang="en_NZ">No bloatware, just your media with an easy to navigate interface</summary>
+			<summary lang="en_US">No bloatware, just your media with an easy to navigate interface</summary>
+			<summary lang="es_ES">Sin excesos, solo su contenido con una interfaz fácil de navegar</summary>
+			<summary lang="fi_FI">Ei sisällä turhia lisäominaisuuksia. Yksinkertainen käyttöliittymä mediakirjastollesi.</summary>
+			<summary lang="fr_CA">Pas d’inflagiciel, juste vos médias avec une interface facile à parcourir</summary>
+			<summary lang="fr_FR">Pas d'usine à gaz, juste les médias avec une interface épurée</summary>
+			<summary lang="it_IT">Skin leggera, i tuoi media con un'interfaccia semplice in cui navigare</summary>
+			<summary lang="nl_NL">Geen bloatware, alleen jouw media in een makkelijk te navigeren omgeving</summary>
+			<summary lang="pt_BR">Sem bloatware, apenas sua mídia com uma interface fácil de navegar</summary>
+			<description lang="de_DE">Keine Bloatware, nur Ihre Medien mit einer einfach zu navigierenden Oberfläche.[CR]Benutzt Texturen aus den Mediastream und Aeon skins.</description>
+			<description lang="en_AU">No bloatware, just your media with an easy to navigate interface.[CR]Uses some textures from Mediastream and Aeon skins.</description>
+			<description lang="en_GB">No bloatware, just your media with an easy to navigate interface.[CR]Uses some textures from Mediastream and Aeon skins.</description>
+			<description lang="en_NZ">No bloatware, just your media with an easy to navigate interface.[CR]Uses some textures from Mediastream and Aeon skins.</description>
+			<description lang="en_US">No bloatware, just your media with an easy to navigate interface.[CR]Uses some textures from Mediastream and Aeon skins.</description>
+			<description lang="es_ES">Sin excesos, sólo su contenido con una interfaz fácil de navegar.[CR]Utiliza algunas texturas de los skins Mediastream y Aeon.</description>
+			<description lang="fi_FI">Ei sisällä turhia lisäominaisuuksia. Yksinkertainen käyttöliittymä mediakirjastollesi.[CR]Käyttää joitakin kuvatiedostoja Mediastream- ja Aeon-ulkoasuista.</description>
+			<description lang="fr_CA">Pas d’inflagiciel, juste vos médias avec une interface facile à parcourir.[CR]Utilise des textures des habillages Mediastream et Aeon.</description>
+			<description lang="fr_FR">Pas d'utilisation excessive des ressources, juste vos médias avec une interface facile à utiliser.[CR]Utilise quelques textures provenant des habillages Mediastream et Aeon.</description>
+			<description lang="it_IT">Skin leggera, i tuoi media con un'interfaccia semplice in cui navigare.[CR]Usa alcuni elementi grafici delle skin Mediastream e Aeon.</description>
+			<description lang="nl_NL">Geen bloatware. alleen jouw media met een makkelijk te navigeren interface.[CR]Gebruikt sommige texturen van de Mediastream- en Aeonontwerpen.</description>
+			<description lang="pt_BR">Sem excessos, apenas a sua mídia com uma interface fácil de navegar. [CR]Utiliza algumas texturas das skins Mediastream e Aeon.</description>
+			<description lang="pt_PT">Um tema sem excessos que apenas mostra a sua média com uma interface de navegação simples.[CR]Utiliza algumas texturas dos temas Mediastream e Aeon.</description>
 			<platform>all</platform>
-			<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-			<forum>http://forum.kodi.tv/</forum>
-			<website></website>
-			<email></email>
-			<source>https://github.com/BADMS/skin.adonic</source>
-			<assets>
-				<icon>resources/icon.png</icon>
-				<fanart>resources/fanart.jpg</fanart>
-				<screenshot>resources/screenshot-01.jpg</screenshot>
-				<screenshot>resources/screenshot-02.jpg</screenshot>
-				<screenshot>resources/screenshot-03.jpg</screenshot>
-				<screenshot>resources/screenshot-04.jpg</screenshot>
-				<screenshot>resources/screenshot-05.jpg</screenshot>
-				<screenshot>resources/screenshot-06.jpg</screenshot>
-				<screenshot>resources/screenshot-07.jpg</screenshot>
-				<screenshot>resources/screenshot-08.jpg</screenshot>
-				<screenshot>resources/screenshot-09.jpg</screenshot>
-				<screenshot>resources/screenshot-10.jpg</screenshot>
-			</assets>
-			<news>1.0.3 - BUGFIXES - Released</news>
-		</extension>
-	</addon>
-	<addon
-		id="skin.copacetix"
-		version="0.0.24"
-		name="Copacetix"
-		provider-name="Hitcher a la badaas">
-		<requires>
-			<import addon="xbmc.gui" version="5.13.0"/>
-			<import addon="script.colorbox" version="2.0.12"/>
-			<import addon="script.skinshortcuts" version="0.6.6"/>
-		</requires>
-		<extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" effectslowdown="1.00" debugging="false">
-			<res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
-		</extension>
-		<extension point="xbmc.addon.metadata">
-			<platform>all</platform>
-			<summary lang="en"></summary>
-			<disclaimer lang="en">Mouse and Touch device not supported</disclaimer>
-			<description lang="en"></description>
-			<source>https://github.com/BADMS/skin.copacetix</source>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+			<forum>https://forum.kodi.tv/forumdisplay.php?fid=203</forum>
+			<source>https://github.com/BADMS/skin.ambex</source>
 			<assets>
 				<icon>resources/icon.png</icon>
 				<fanart>resources/fanart.jpg</fanart>
