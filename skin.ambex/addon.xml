@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.ambex" version="3.4.11" name="Ambex" provider-name="Jester, Joethepartylion, Pecinko, bsoriano, BADMS">
+<addon id="skin.ambex" version="1.0.0" name="Ambex" provider-name="Jester, Joethepartylion, Pecinko, bsoriano, BADMS">
     <requires>
         <import addon="xbmc.gui" version="5.15.0"/>
         <import addon="script.favourites" version="7.1.1"/>
@@ -39,7 +39,7 @@
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
         <forum>https://forum.kodi.tv/forumdisplay.php?fid=203</forum>
-        <source>https://github.com/bartolomesoriano/skin.amber</source>
+        <source>https://github.com/BADMS/skin.ambex</source>
         <assets>
             <icon>resources/icon.png</icon>
             <fanart>resources/fanart.jpg</fanart>
@@ -54,31 +54,5 @@
             <screenshot>resources/screenshot09.jpg</screenshot>
             <screenshot>resources/screenshot10.jpg</screenshot>
         </assets>
-        <news>3.4.11 (04-01-2021)
-		- Make embuary helper and tmdb helper completely optional
-		- Fix for overlay not shown for files in list views
-		- Update translations
-		- Misc. fixes
-		3.4.10 (31-12-2020)
-		- Add smaller favourites options
-		- Fixes for inclusion in Kodi repo
-		3.4.8 (23-12-2020)
-		- Add fanart.jpg as background option (for files mode)
-		- Add Logo view 
-		- Add Director to all applicable views
-		- Misc. Fixes
-		3.4.7 (14-12-2020)
-		- Fix header poistioning in select dialogs
-		- Fix missing localizations
-		- Update French translation
-		3.4.6 (13-12-2020)
-		- Provide color picker without addons (thx jurialmunkey)
-		- Replace backup options with script.xbmcbackup
-		- Add auto close video OSD options
-		- More extra artwork options for applicable media views
-		- Add Estonian translation (thx rimasx)
-		- Update Finnish translation (thx g0mez)
-		- Misc. fixes
-        </news>
     </extension>
 </addon>
