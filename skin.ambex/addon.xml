@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.ambex" version="2.0.1" name="Ambex" provider-name="Jester, Joethepartylion, Pecinko, bsoriano, BADMS">
+<addon id="skin.ambex" version="2.0.2" name="Ambex" provider-name="Jester, Joethepartylion, Pecinko, bsoriano, BADMS">
     <requires>
         <import addon="xbmc.gui" version="5.15.0"/>
         <import addon="script.favourites" version="7.1.1"/>
