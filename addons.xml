@@ -16,7 +16,7 @@
             <platform>all</platform>
 		</extension>
 	</addon>
-	<addon id="script.litebox" name="litebox Script" version="1.0.1" provider-name="BADMS, Angelinas, drinfernoo">
+	<addon id="script.litebox" name="litebox Script" version="1.0.2" provider-name="BADMS, Angelinas, drinfernoo">
 		<requires>
 			<import addon="xbmc.python" version="3.0.0"/>
 			<import addon="script.module.simplejson" version="2.0.10"/>
